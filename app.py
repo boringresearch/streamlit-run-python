@@ -36,7 +36,7 @@ custom_btns = [
     }
 ]
 # Code Editor
-response = code_editor(allow_reset=True, code=default_code, buttons=custom_btns, height=[10,10])
+response = code_editor(allow_reset=True, code=default_code, buttons=custom_btns, height=[10,10], props={ "enableBasicAutocompletion": True, "enableLiveAutocompletion": False, "enableSnippets": False})
 
 if response['type'] == "submit" and len(response['text']) != 0:
     output, error = run_python_code(response['text'])
