@@ -2,3 +2,4 @@ streamlit_code_editor
 numpy
 torch
 pandas
+pulp
