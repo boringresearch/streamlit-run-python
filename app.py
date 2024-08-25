@@ -96,7 +96,6 @@ if response['type'] == "submit" and len(response['text']) != 0:
     
     # Display output
     if output:
-        st.success("Output")
         st.code(output, language='python')
     
     # Display error
