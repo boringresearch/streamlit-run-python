@@ -74,7 +74,7 @@ custom_btns = [
 # Code Editor
 response = code_editor(
     allow_reset=True,
-    code="",  # Start with an empty editor
+    code="# Copy & Paste code here",  # Start with an empty editor
     buttons=custom_btns,
     height=[10, 10],
     props={"enableBasicAutocompletion": True, "enableLiveAutocompletion": False, "enableSnippets": False}
